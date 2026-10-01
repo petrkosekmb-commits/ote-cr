@@ -1,0 +1,16 @@
+{
+  "name": "ote-cr",
+  "version": "0.2.0",
+  "description": "Čte, připravuje a na konkrétní pokyn vkládá měsíční výkazy OTE ČR. Počítá rezervu dodávky do sítě.",
+  "author": {"name": "Petr Košek"},
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "OTE ČR",
+    "shortDescription": "Čtení a vkládání výkazů OTE, výpočty rezervy",
+    "longDescription": "Čte měsíční výkazy a souhrnnou dodávku v přihlášené relaci Edge. Připravuje nové výkazy a opravy, ověřuje výrobnu, období, jednotky a hodnoty před zápisem. Finální odeslání provádí se souhlasem ke konkrétnímu výkazu a ověřuje výsledek. Počítá rezervu pro kategorii výrobce a nabíjení Tesly.",
+    "developerName": "Petr Košek",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Načti poslední dostupné výkazy OTE pro Pískovou Lhotu a spočítej rezervu pro nabíjení Tesly."
+  }
+}

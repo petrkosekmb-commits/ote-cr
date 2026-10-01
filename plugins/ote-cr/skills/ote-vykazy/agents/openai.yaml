@@ -1,0 +1,4 @@
+interface:
+  display_name: "Výkazy OTE ČR"
+  short_description: "Čtení a vkládání výkazů, výroba a přetoky"
+  default_prompt: "Použij $ote-vykazy k načtení aktuálních výkazů OTE a propočtu rezervy kategorie 1."

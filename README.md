@@ -26,3 +26,7 @@ node plugins/ote-cr/skills/ote-vykazy/scripts/calculate.mjs --actual-production=
 Vstupní energie je v kWh. Parametry cen a přínosu kategorie jsou upravitelné. Model používá dohodnutou hranici 80 % čisté výroby; aktuální tarif a pravidla je třeba ověřit pro příslušnou výrobnu. Předpoklad přínosu 500 Kč měsíčně není potvrzený tarifní nárok.
 
 Ověřena je struktura pluginu, instalace verze 0.2.0 a numerické hranice kalkulace. Kompletní vložení a odeslání živého výkazu dosud nebylo otestováno.
+
+## Podpora projektu
+
+Pokud vám projekt pomáhá, můžete podpořit jeho další vývoj a údržbu na [Buy Me a Coffee](https://buymeacoffee.com/kojakcio). Děkuji za podporu.

@@ -34,9 +34,13 @@ export function calculate(input) {
 if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   try {
     const input = {};
+    const allowed = new Set(['actual-production', 'actual-export', 'forecast-production', 'forecast-export',
+      'actual-tech', 'forecast-tech', 'threshold', 'buffer', 'night-price', 'sale-price', 'monthly-benefit']);
     for (const arg of process.argv.slice(2)) {
       const m = /^--([a-z-]+)=(.+)$/.exec(arg);
       if (!m) throw new Error('Použij --parametr=číslo.');
+      if (!allowed.has(m[1])) throw new Error(`Neznámý parametr: ${m[1]}`);
+      if (!m[2].trim()) throw new Error(`Chybějící číslo: ${m[1]}`);
       input[m[1]] = Number(m[2]);
     }
     console.log(JSON.stringify(calculate(input),null,2));

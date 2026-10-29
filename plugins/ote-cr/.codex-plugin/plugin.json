@@ -1,6 +1,6 @@
 {
   "name": "ote-cr",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Čte, připravuje a na konkrétní pokyn vkládá měsíční výkazy OTE ČR. Počítá rezervu dodávky do sítě.",
   "author": {"name": "Petr Košek"},
   "skills": "./skills/",

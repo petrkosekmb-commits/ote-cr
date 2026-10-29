@@ -37,4 +37,4 @@ Výstup vysvětli česky: skutečný podíl, odhad roční výroby a dodávky, m
 
 Úspora 500 Kč je měsíční předpoklad uživatele, tedy 6000 Kč za 12 měsíců. Cenový zlom dalších solárních kWh za vyčerpanou rezervou je 6000/(5−0.5). Pojistka není právní hranice a nesnižuje ekonomický bod zlomu. Tarif a platnost pravidel ověř z aktuálních dokumentů distributora, pokud je úloha vyžaduje; neprezentuj předpoklad úspory jako potvrzený nárok.
 
-Výstupy ukládej pouze do C:\Users\kosek\Documents\Codex\ote-cr\outputs. Originální zdrojové soubory můžeš číst z jejich uživatelem určeného umístění; do OneDrive nové výstupy neukládej.
+Výstupy ukládej podle aktuálních uživatelských nebo projektových pravidel úložiště, v podsložkách podle výrobny a období. Není-li cílové umístění určeno, vyžádej je od uživatele. Originální zdrojové soubory můžeš číst z jejich uživatelem určeného umístění; do OneDrive nové výstupy neukládej.
